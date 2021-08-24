@@ -1,6 +1,6 @@
 const quiz = document.querySelector(".quiz-from");
 const submitButton = document.querySelector("#submit-button");
-const outputResult = document.querySelector("#output-message");
+const outputResult = document.querySelector("#quiz-result");
 const quizAnswer = ["3", "scalene triangle", "right angle triangle",
  "AB = PQ", "138°", "75 cm2", "Obtuse Angle", "HYPOTENUSE"];
 

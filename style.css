@@ -111,14 +111,66 @@ h4{
 }
 #submit-button{
     display: block;
-    margin: 1rem auto;
+    margin: 1rem auto 0rem;
     padding: 0.8rem 2rem;
     background-color: #F43F5E;
     color: whitesmoke;
     border: none;
     font-size: medium;
     border-radius: 10px;
+    border: none;
 }  
+h4{
+  font-style: bold;
+  font-weight: 800;
+}
+hr{
+    margin:  auto;
+    color: black;
+    max-width: 400px;
+
+}
+#quiz-result{
+    margin: 0rem auto;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-size: large;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
