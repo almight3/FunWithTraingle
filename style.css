@@ -110,14 +110,14 @@ h4{
     text-align: center;
 }
 #submit-button{
-    display:block;
-    margin: auto;
-    padding: 1rem;
+    display: block;
     margin: 1rem auto;
-    border-radius: 10px;
+    padding: 0.8rem 2rem;
     background-color: #F43F5E;
     color: whitesmoke;
-    border-style: none;
+    border: none;
+    font-size: medium;
+    border-radius: 10px;
 }  
 
 
