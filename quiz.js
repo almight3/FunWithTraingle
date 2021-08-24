@@ -8,10 +8,10 @@ function checkAnswer(e){
     
     let score = 0;
     let idx = 0;
-    //console.log(idx);
+    console.log(idx);
     const formResult = new FormData(quiz);
     for(let value of formResult.values()){
-        //console.log(value)
+        console.log(value)
         if(value === quizAnswer[idx]){
             console.log(value); 
             score++;

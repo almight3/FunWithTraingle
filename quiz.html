@@ -1,152 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
-    <title>Quiz</title>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Quiz</title>
 </head>
+
 <body>
-    <h1>Triangle Quiz</h1>
-    <form class="quiz-from">
-     <div class="question-container">
-     <p>
-        Q1) How many angles are there in a triangle?
-     </p>
-     <label>
-         <input type= "radio" name="question1"  value="1"> 1
-     </label>
-     <label>
-     <label>
-        <input type = "radio" name="question1" value="2" /> 2
-    </label>
-    <label>
-        <input type= "radio" name="question1" value="3" /> 3
-    </label>
-    <label>
-        <input type= "radio" name="question1"  value="4"/>4
-    </label>
-     
-     <p>Q2)A triangle that has no equal sides and no equal angles is known as</p>
-     <label>
-        <input type= "radio" name="question2"  value="isosceles triangle"> isosceles triangle
-    </label>
-    <label>
-       <input type = "radio" name="question2"  value="scalene triangle" />scalene triangle  
-   </label>
-   <label>
-       <input type= "radio" name="question2"  value="equilateral triangle" />equilateral triangle
-   </label>
-   <label> 
-       <input type= "radio" name="question2"  value="right angle" />right angle
-   </label>
-    
-   <p>Q3) A triangle with the angle of 90 ° is called</p>
-
-   <label>
-    <input type= "radio" name="question3" value="vertical triangle"> vertical triangle
-</label>
-<label>
-   <input type = "radio" name="question3" value="supplementary triangle" />supplementary triangle
-</label>
-<label>
-   <input type= "radio" name="question3" value="right angle triangle" />right angle triangle 
-
-</label>
-<label> 
-   <input type= "radio" name="question3" value="reflective triangle" />reflective triangle
-
-</label>
-<p>Q4)Which one is true if triangle ABC is congruent to triangle PQR?</p>    
-<label>
-    <input type= "radio" name="question4" value="AB = PQ">  AB = PQ 
-
-</label>
-<label>
-   <input type = "radio" name="question4" value="AB = QR" />AB = QR
-</label>
-<label>
-   <input type= "radio" name="question4" value="BC = QR" />BC = QR
-
-</label>
-<label> 
-   <input type= "radio" name="question4" value="∠A = ∠Q" />∠A = ∠Q
-
-</label>   
-<p>Q5)  ABCD is a cyclic quadrilateral and AB is the diameter of the circle. 
-    If ∠CAB = 48 °, then what is the value (in degrees) of ∠ADC? 
-</p>
-<label>
-    <input type= "radio" name="question5" value="52°">  52°
-
-</label>
-<label>
-   <input type = "radio" name="question5" value="77°" />77°
-</label>
-<label>
-   <input type= "radio" name="question5" value="138°" /> 138° 
-
-</label>
-<label> 
-   <input type= "radio" name="question5" value="142°" />142°
-
-</label>   
-
-
-<p>Q6) Two sides of an isosceles triangle are 12.5 cm each while the third side is 20 cm. What is the area of the triangle?
-     </p>
-     </div>
+   <header>
+      <h1>Fun with Traingle</h1>
+      <nav>
+          <ul>
+              <li><a href="index.html" active>isTraingle</a></li>
+              <li><a href="quiz.html">Traingle Quiz</a></li>
+              <li><a href="hypotenus.html">hyptenuse</a></li>
+              <li><a href="areaoftriangle.html">Area of triangle</a></li>
+          </ul>
+      </nav>
       
-     <label>
-        <input type= "radio" name="question6" value="250 cm2">  250 cm2
-    
-    </label>
-    <label>
-       <input type = "radio" name="question6" value="75 cm2" /> 75 cm2 
-    </label>
-    <label>
-       <input type= "radio" name="question6" value="125 cm2" /> 125 cm2
-    
-    </label>
-    <label> 
-       <input type= "radio" name="question6" value="150 cm2" />150 cm2
-    
-    </label>    
+  </header>   
+   <h1>Triangle Quiz</h1>
+   <form class="quiz-from">
+      <div class="question-bank">
+         <p>
+            Q1) How many angles are there in a triangle?
+         </p>
+         <label>
+            <input type="radio" name="question1" value="1"> 1
+         </label>
+         <label>
+            <label>
+               <input type="radio" name="question1" value="2" /> 2
+            </label>
+            <label>
+               <input type="radio" name="question1" value="3" /> 3
+            </label>
+            <label>
+               <input type="radio" name="question1" value="4" />4
+            </label>
+      </div>
+      <div class="question-bank">
+         <p>Q2)A triangle that has no equal sides and no equal angles is known as</p>
+         <label>
+            <input type="radio" name="question2" value="isosceles triangle"> isosceles triangle
+         </label>
+         <label>
+            <input type="radio" name="question2" value="scalene triangle" />scalene triangle
+         </label>
+         <label>
+            <input type="radio" name="question2" value="equilateral triangle" />equilateral triangle
+         </label>
+         <label>
+            <input type="radio" name="question2" value="right angle" />right angle
+         </label>
+      </div>
+      <div class="question-bank">
+         <p>Q3) A triangle with the angle of 90 ° is called</p>
 
-    <p>Q7) Which of the following angle cannot present in a triangle?
-    </p>
-    <label>
-        <input type= "radio" name="question7" value="Acute Angle ">  Acute Angle 
-    </label>
-    <label>
-       <input type = "radio" name="question7" value="Right Angle" /> Right Angle
-    </label>
-    <label>
-       <input type= "radio" name="question7" value="Obtuse Angle" /> Obtuse Angle 
-    </label>
-    <label> 
-       <input type= "radio" name="question7" value="Reflex Angle" />Reflex Angle  
-    
-    </label>    
-    <p>Q8) Which is the longest side in a right angles triangle?</p>
+         <label>
+            <input type="radio" name="question3" value="vertical triangle"> vertical triangle
+         </label>
+         <label>
+            <input type="radio" name="question3" value="supplementary triangle" />supplementary triangle
+         </label>
+         <label>
+            <input type="radio" name="question3" value="right angle triangle" />right angle triangle
 
-    <label>
-        <input type= "radio" name="question8" value="BASE">  BASE
-    </label>
-    <label>
-       <input type = "radio" name="question8" value="ALTITUDE" /> ALTITUDE
-    </label>
-    <label>
-       <input type= "radio" name="question8" value="HYPOTENUSE" /> HYPOTENUSE 
-    </label>
-    <label> 
-       <input type= "radio" name="question8" value="None of the above" />None of the above
-    
-    </label>    
-     </form>
-     <button id ="submit-button" >Submit</button>
-     <p id = "output-message"></p>
-    <script src="quiz.js"></script>
+         </label>
+         <label>
+            <input type="radio" name="question3" value="reflective triangle" />reflective triangle
+
+         </label>
+      </div>
+      <div class="question-bank">
+         <p>Q4)Which one is true if triangle ABC is congruent to triangle PQR?</p>
+         <label>
+            <input type="radio" name="question4" value="AB = PQ"> AB = PQ
+
+         </label>
+         <label>
+            <input type="radio" name="question4" value="AB = QR" />AB = QR
+         </label>
+         <label>
+            <input type="radio" name="question4" value="BC = QR" />BC = QR
+
+         </label>
+         <label>
+            <input type="radio" name="question4" value="∠A = ∠Q" />∠A = ∠Q
+
+         </label>
+      </div>
+      <div class="question-bank">
+         <p>Q5) ABCD is a cyclic quadrilateral and AB is the diameter of the circle.
+            If ∠CAB = 48 °, then what is the value (in degrees) of ∠ADC?
+         </p>
+         <label>
+            <input type="radio" name="question5" value="52°"> 52°
+
+         </label>
+         <label>
+            <input type="radio" name="question5" value="77°" />77°
+         </label>
+         <label>
+            <input type="radio" name="question5" value="138°" /> 138°
+
+         </label>
+         <label>
+            <input type="radio" name="question5" value="142°" />142°
+
+         </label>
+      </div>
+      <div class="question-bank">
+         <p>Q6) Two sides of an isosceles triangle are 12.5 cm each while the third side is 20 cm. What is the area of
+            the triangle?
+         </p>
+
+      <label>
+         <input type="radio" name="question6" value="250 cm2"> 250 cm2
+
+      </label>
+      <label>
+         <input type="radio" name="question6" value="75 cm2" /> 75 cm2
+      </label>
+      <label>
+         <input type="radio" name="question6" value="125 cm2" /> 125 cm2
+
+      </label>
+      <label>
+         <input type="radio" name="question6" value="150 cm2" />150 cm2
+
+      </label> 
+   </div>
+      <div class="question-bank">
+         <p>Q7) Which of the following angle cannot present in a triangle?
+         </p>
+         <label>
+            <input type="radio" name="question7" value="Acute Angle "> Acute Angle
+         </label>
+         <label>
+            <input type="radio" name="question7" value="Right Angle" /> Right Angle
+         </label>
+         <label>
+            <input type="radio" name="question7" value="Obtuse Angle" /> Obtuse Angle
+         </label>
+         <label>
+            <input type="radio" name="question7" value="Reflex Angle" />Reflex Angle
+
+         </label>
+      </div>
+      <div class="question-bank">
+         <p>Q8) Which is the longest side in a right angles triangle?</p>
+
+         <label>
+            <input type="radio" name="question8" value="BASE"> BASE
+         </label>
+         <label>
+            <input type="radio" name="question8" value="ALTITUDE" /> ALTITUDE
+         </label>
+         <label>
+            <input type="radio" name="question8" value="HYPOTENUSE" /> HYPOTENUSE
+         </label>
+         <label>
+            <input type="radio" name="question8" value="None of the above" />None of the above
+
+         </label>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </form>
+   <button id="submit-button">Submit</button>
+   <p id="output-message"></p>
+   <script src="quiz.js"></script>
 </body>
+
 </html>

@@ -4,16 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Hypotenuse</title>
 </head>
 <body>
+    <header>
+        <h1>Fun with Traingle</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" active>isTraingle</a></li>
+                <li><a href="quiz.html">Traingle Quiz</a></li>
+                <li><a href="hypotenus.html">hyptenuse</a></li>
+                <li><a href="areaoftriangle.html">Area of triangle</a></li>
+            </ul>
+        </nav>
+        
+    </header>   
     <h2>Calculate Hypotenuse</h2>
-    <label for="side-angle"> A = 
+    <label for="side-angle"> Enter base value (a) =
         <input type="number" class="side-angle"/>
     </label>
-    <label for="side-angle"> B = 
+    <label for="side-angle"> Enter base value (b) =
         <input type="number" class="side-angle"/>
     </label>
+    <h2>Hypotenuse formula</h2>
+    <h3>√(base² + height²)</h3>
     <button id="check-button">Check Hypotenuse</button>
      <p id = "output-message"></p>
      <script src="hypotenus.js"></script>

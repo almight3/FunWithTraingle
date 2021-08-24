@@ -1,8 +1,141 @@
-nav {
+@import url('https://fonts.googleapis.com/css2?family=Antic&display=swap');
 
+body{
+    margin:0px;
+    font-family: 'Antic', sans-serif;
+    
+}
+header{
+    padding: 0.5rem;
+    background-color: #F43F5E;
+    color: white    ;
+}
+header nav ul{
+    list-style: none;
+    text-align: right;
+    margin-bottom: 0.5;
+}
+
+header h1{
+    display: block;
+ font-size: 1.5rem;
+}
+header a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+header nav ul li {
+    display: inline-block;
+    font-size: medium;
+    margin: auto 0.5rem;
+    font-weight: 600;       
+}
+
+.angles{
+    display: block;
+    margin: auto;
+    margin: 0.5rem auto;
+    padding: 0.7rem;
+    border: 2px solid #F43F5E;
+    border-radius: 10px;
+}
+label{
+    display: block;
+    margin: auto;
+    text-align:center;
+    color: #F43F5E;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h2{
+    text-align: center;
+}
+
+#check-button{
+    display: block;
+    margin: 1rem auto;
+    padding: 0.8rem 2rem;
+    background-color: #F43F5E;
+    color: whitesmoke;
+    border: none;
+    font-size: medium;
+    border-radius: 10px;
+}
+#output-message{
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.base-hieght{
+    display:block;
+    margin: auto;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    border: 2px solid #F43F5E;
+}
+
+.side-angle{
+    display: block;
+    margin: auto;
+    padding: 1rem;
+    margin: 1rem auto;
+    border: 2px solid #F43F5E;
+    border-radius:10px ;
 
 }
-nav ul{
- display: inline-block;
- text-align: right;
-} 
+
+h3{
+    text-align: center;
+}
+
+.question-bank{
+    text-align: center;
+    margin: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+.question-bank  label{
+
+color: black;
+text-align: center;
+display: inline;
+font-size: medium;
+font-weight: 400;
+}
+h4{
+    text-align: center;
+}
+#submit-button{
+    display:block;
+    margin: auto;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 10px;
+    background-color: #F43F5E;
+    color: whitesmoke;
+    border-style: none;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
