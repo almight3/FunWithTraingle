@@ -4,14 +4,14 @@ const outputResult = document.querySelector("#output-message");
 const quizAnswer = ["3", "scalene triangle", "right angle triangle",
  "AB = PQ", "138°", "75 cm2", "Obtuse Angle", "HYPOTENUSE"];
 
-function checkAnswer(e){
+function checkAnswer(){
     
     let score = 0;
     let idx = 0;
-    console.log(idx);
+    //console.log(idx);
     const formResult = new FormData(quiz);
     for(let value of formResult.values()){
-        console.log(value)
+        //console.log(value)
         if(value === quizAnswer[idx]){
             console.log(value); 
             score++;
