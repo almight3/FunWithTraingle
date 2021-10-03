@@ -1,7 +1,7 @@
 # FunWithTraingle
 
 This website has four section all related to triangles.
-
+# 
 **IsTraingle**  - check whether given angles can form a traingle.
 
 **traingle Quiz**  - a quiz about angles and traingles.
